@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31DBE8841EE1AFF000392AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8831EE1AFF000392AE6 /* main.m */; };
+		31DBE8871EE1AFF000392AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8861EE1AFF000392AE6 /* AppDelegate.m */; };
+		31DBE88A1EE1AFF000392AE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8891EE1AFF000392AE6 /* ViewController.m */; };
+		31DBE88D1EE1AFF000392AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE88B1EE1AFF000392AE6 /* Main.storyboard */; };
+		31DBE8901EE1AFF100392AE6 /* KucRaceCarStats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE88E1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodeld */; };
+		31DBE8921EE1AFF100392AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE8911EE1AFF100392AE6 /* Assets.xcassets */; };
+		31DBE8951EE1AFF100392AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DBE8931EE1AFF100392AE6 /* LaunchScreen.storyboard */; };
+		31DBE8A01EE1AFF400392AE6 /* KucRaceCarStatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE89F1EE1AFF400392AE6 /* KucRaceCarStatsTests.m */; };
+		31DBE8AB1EE1AFF400392AE6 /* KucRaceCarStatsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE8AA1EE1AFF400392AE6 /* KucRaceCarStatsUITests.m */; };
+		31E68BE31EE7999700525A16 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E68BE21EE7999700525A16 /* Car.m */; };
+		31E68BE61EE8D9C700525A16 /* CarSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E68BE51EE8D9C700525A16 /* CarSelectViewController.m */; };
+		31E68BEC1EE8E56B00525A16 /* NewCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E68BEB1EE8E56B00525A16 /* NewCarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31DBE89C1EE1AFF400392AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DBE8771EE1AFED00392AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DBE87E1EE1AFED00392AE6;
+			remoteInfo = KucRaceCarStats;
+		};
+		31DBE8A71EE1AFF400392AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DBE8771EE1AFED00392AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DBE87E1EE1AFED00392AE6;
+			remoteInfo = KucRaceCarStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31DBE87F1EE1AFF000392AE6 /* KucRaceCarStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KucRaceCarStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE8831EE1AFF000392AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31DBE8851EE1AFF000392AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31DBE8861EE1AFF000392AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31DBE8881EE1AFF000392AE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31DBE8891EE1AFF000392AE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31DBE88C1EE1AFF000392AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31DBE88F1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KucRaceCarStats.xcdatamodel; sourceTree = "<group>"; };
+		31DBE8911EE1AFF100392AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DBE8941EE1AFF100392AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DBE8961EE1AFF100392AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DBE89B1EE1AFF400392AE6 /* KucRaceCarStatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KucRaceCarStatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE89F1EE1AFF400392AE6 /* KucRaceCarStatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KucRaceCarStatsTests.m; sourceTree = "<group>"; };
+		31DBE8A11EE1AFF400392AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DBE8A61EE1AFF400392AE6 /* KucRaceCarStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KucRaceCarStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBE8AA1EE1AFF400392AE6 /* KucRaceCarStatsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KucRaceCarStatsUITests.m; sourceTree = "<group>"; };
+		31DBE8AC1EE1AFF400392AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E68BE11EE7999700525A16 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		31E68BE21EE7999700525A16 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		31E68BE41EE8D9C700525A16 /* CarSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSelectViewController.h; sourceTree = "<group>"; };
+		31E68BE51EE8D9C700525A16 /* CarSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarSelectViewController.m; sourceTree = "<group>"; };
+		31E68BEA1EE8E56B00525A16 /* NewCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCarViewController.h; sourceTree = "<group>"; };
+		31E68BEB1EE8E56B00525A16 /* NewCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DBE87C1EE1AFED00392AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8981EE1AFF400392AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8A31EE1AFF400392AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DBE8761EE1AFEC00392AE6 = {
+			isa = PBXGroup;
+			children = (
+				31DBE8811EE1AFF000392AE6 /* KucRaceCarStats */,
+				31DBE89E1EE1AFF400392AE6 /* KucRaceCarStatsTests */,
+				31DBE8A91EE1AFF400392AE6 /* KucRaceCarStatsUITests */,
+				31DBE8801EE1AFF000392AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31DBE8801EE1AFF000392AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE87F1EE1AFF000392AE6 /* KucRaceCarStats.app */,
+				31DBE89B1EE1AFF400392AE6 /* KucRaceCarStatsTests.xctest */,
+				31DBE8A61EE1AFF400392AE6 /* KucRaceCarStatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DBE8811EE1AFF000392AE6 /* KucRaceCarStats */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8851EE1AFF000392AE6 /* AppDelegate.h */,
+				31DBE8861EE1AFF000392AE6 /* AppDelegate.m */,
+				31E68BEA1EE8E56B00525A16 /* NewCarViewController.h */,
+				31E68BEB1EE8E56B00525A16 /* NewCarViewController.m */,
+				31DBE8881EE1AFF000392AE6 /* ViewController.h */,
+				31DBE8891EE1AFF000392AE6 /* ViewController.m */,
+				31E68BE41EE8D9C700525A16 /* CarSelectViewController.h */,
+				31E68BE51EE8D9C700525A16 /* CarSelectViewController.m */,
+				31E68BE11EE7999700525A16 /* Car.h */,
+				31E68BE21EE7999700525A16 /* Car.m */,
+				31DBE88B1EE1AFF000392AE6 /* Main.storyboard */,
+				31DBE8911EE1AFF100392AE6 /* Assets.xcassets */,
+				31DBE8931EE1AFF100392AE6 /* LaunchScreen.storyboard */,
+				31DBE8961EE1AFF100392AE6 /* Info.plist */,
+				31DBE88E1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodeld */,
+				31DBE8821EE1AFF000392AE6 /* Supporting Files */,
+			);
+			path = KucRaceCarStats;
+			sourceTree = "<group>";
+		};
+		31DBE8821EE1AFF000392AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8831EE1AFF000392AE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31DBE89E1EE1AFF400392AE6 /* KucRaceCarStatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE89F1EE1AFF400392AE6 /* KucRaceCarStatsTests.m */,
+				31DBE8A11EE1AFF400392AE6 /* Info.plist */,
+			);
+			path = KucRaceCarStatsTests;
+			sourceTree = "<group>";
+		};
+		31DBE8A91EE1AFF400392AE6 /* KucRaceCarStatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31DBE8AA1EE1AFF400392AE6 /* KucRaceCarStatsUITests.m */,
+				31DBE8AC1EE1AFF400392AE6 /* Info.plist */,
+			);
+			path = KucRaceCarStatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DBE87E1EE1AFED00392AE6 /* KucRaceCarStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE8AF1EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStats" */;
+			buildPhases = (
+				31DBE87B1EE1AFED00392AE6 /* Sources */,
+				31DBE87C1EE1AFED00392AE6 /* Frameworks */,
+				31DBE87D1EE1AFED00392AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KucRaceCarStats;
+			productName = KucRaceCarStats;
+			productReference = 31DBE87F1EE1AFF000392AE6 /* KucRaceCarStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31DBE89A1EE1AFF400392AE6 /* KucRaceCarStatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE8B21EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStatsTests" */;
+			buildPhases = (
+				31DBE8971EE1AFF400392AE6 /* Sources */,
+				31DBE8981EE1AFF400392AE6 /* Frameworks */,
+				31DBE8991EE1AFF400392AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DBE89D1EE1AFF400392AE6 /* PBXTargetDependency */,
+			);
+			name = KucRaceCarStatsTests;
+			productName = KucRaceCarStatsTests;
+			productReference = 31DBE89B1EE1AFF400392AE6 /* KucRaceCarStatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31DBE8A51EE1AFF400392AE6 /* KucRaceCarStatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DBE8B51EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStatsUITests" */;
+			buildPhases = (
+				31DBE8A21EE1AFF400392AE6 /* Sources */,
+				31DBE8A31EE1AFF400392AE6 /* Frameworks */,
+				31DBE8A41EE1AFF400392AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DBE8A81EE1AFF400392AE6 /* PBXTargetDependency */,
+			);
+			name = KucRaceCarStatsUITests;
+			productName = KucRaceCarStatsUITests;
+			productReference = 31DBE8A61EE1AFF400392AE6 /* KucRaceCarStatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DBE8771EE1AFED00392AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Victor Kuc";
+				TargetAttributes = {
+					31DBE87E1EE1AFED00392AE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ABVQXRRVH9;
+						ProvisioningStyle = Automatic;
+					};
+					31DBE89A1EE1AFF400392AE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ABVQXRRVH9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31DBE87E1EE1AFED00392AE6;
+					};
+					31DBE8A51EE1AFF400392AE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ABVQXRRVH9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31DBE87E1EE1AFED00392AE6;
+					};
+				};
+			};
+			buildConfigurationList = 31DBE87A1EE1AFED00392AE6 /* Build configuration list for PBXProject "KucRaceCarStats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DBE8761EE1AFEC00392AE6;
+			productRefGroup = 31DBE8801EE1AFF000392AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DBE87E1EE1AFED00392AE6 /* KucRaceCarStats */,
+				31DBE89A1EE1AFF400392AE6 /* KucRaceCarStatsTests */,
+				31DBE8A51EE1AFF400392AE6 /* KucRaceCarStatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DBE87D1EE1AFED00392AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8951EE1AFF100392AE6 /* LaunchScreen.storyboard in Resources */,
+				31DBE8921EE1AFF100392AE6 /* Assets.xcassets in Resources */,
+				31DBE88D1EE1AFF000392AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8991EE1AFF400392AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8A41EE1AFF400392AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DBE87B1EE1AFED00392AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE88A1EE1AFF000392AE6 /* ViewController.m in Sources */,
+				31E68BE31EE7999700525A16 /* Car.m in Sources */,
+				31DBE8871EE1AFF000392AE6 /* AppDelegate.m in Sources */,
+				31E68BEC1EE8E56B00525A16 /* NewCarViewController.m in Sources */,
+				31DBE8841EE1AFF000392AE6 /* main.m in Sources */,
+				31DBE8901EE1AFF100392AE6 /* KucRaceCarStats.xcdatamodeld in Sources */,
+				31E68BE61EE8D9C700525A16 /* CarSelectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8971EE1AFF400392AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8A01EE1AFF400392AE6 /* KucRaceCarStatsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DBE8A21EE1AFF400392AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DBE8AB1EE1AFF400392AE6 /* KucRaceCarStatsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DBE89D1EE1AFF400392AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DBE87E1EE1AFED00392AE6 /* KucRaceCarStats */;
+			targetProxy = 31DBE89C1EE1AFF400392AE6 /* PBXContainerItemProxy */;
+		};
+		31DBE8A81EE1AFF400392AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DBE87E1EE1AFED00392AE6 /* KucRaceCarStats */;
+			targetProxy = 31DBE8A71EE1AFF400392AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31DBE88B1EE1AFF000392AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DBE88C1EE1AFF000392AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31DBE8931EE1AFF100392AE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DBE8941EE1AFF100392AE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31DBE8AD1EE1AFF400392AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DBE8AE1EE1AFF400392AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DBE8B01EE1AFF400392AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31DBE8B11EE1AFF400392AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31DBE8B31EE1AFF400392AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KucRaceCarStats.app/KucRaceCarStats";
+			};
+			name = Debug;
+		};
+		31DBE8B41EE1AFF400392AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KucRaceCarStats.app/KucRaceCarStats";
+			};
+			name = Release;
+		};
+		31DBE8B61EE1AFF400392AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KucRaceCarStats;
+			};
+			name = Debug;
+		};
+		31DBE8B71EE1AFF400392AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ABVQXRRVH9;
+				INFOPLIST_FILE = KucRaceCarStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkuc1.KucRaceCarStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KucRaceCarStats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DBE87A1EE1AFED00392AE6 /* Build configuration list for PBXProject "KucRaceCarStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8AD1EE1AFF400392AE6 /* Debug */,
+				31DBE8AE1EE1AFF400392AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE8AF1EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8B01EE1AFF400392AE6 /* Debug */,
+				31DBE8B11EE1AFF400392AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE8B21EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8B31EE1AFF400392AE6 /* Debug */,
+				31DBE8B41EE1AFF400392AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DBE8B51EE1AFF400392AE6 /* Build configuration list for PBXNativeTarget "KucRaceCarStatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DBE8B61EE1AFF400392AE6 /* Debug */,
+				31DBE8B71EE1AFF400392AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31DBE88E1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31DBE88F1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodel */,
+			);
+			currentVersion = 31DBE88F1EE1AFF000392AE6 /* KucRaceCarStats.xcdatamodel */;
+			path = KucRaceCarStats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31DBE8771EE1AFED00392AE6 /* Project object */;
+}
